@@ -1,0 +1,5 @@
+deb https://mirrors.lug.mtu.edu/ubuntu/ xenial main universe restricted multiverse 
+deb https://mirrors.lug.mtu.edu/ubuntu/ xenial-security restricted universe multiverse main 
+deb https://mirrors.lug.mtu.edu/ubuntu/ xenial-updates restricted universe multiverse main 
+deb https://mirrors.lug.mtu.edu/ubuntu/ xenial-backports main restricted multiverse universe
+deb https://mirrors.lug.mtu.edu/ubuntu/ xenial partner  

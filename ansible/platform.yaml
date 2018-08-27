@@ -1,0 +1,29 @@
+---
+#-----------------------------------------------------------------------------------------
+# - hosts: hitleap
+#   user: root
+#   # environment: "{{proxy_env}}"
+#   roles: 
+   # - repos
+   # - {role: bashcolor, user: killer}
+   # - hitleap
+   # - {role: bashcolor, user: hitleap}
+   # - {role: git, repo: scrapper, master_dir: /srv/scrapper }
+   # - {role: bashcolor, user: git}
+   # - sshd
+   # - openvpn
+#------------------------------------------------------------------------------------------------
+- hosts: server
+  user: root
+  # environment: "{{proxy_env}}"
+  roles:
+   # - repos
+   # - {role: bashcolor, user: killer}
+   # - base
+   # - redis
+   # - mongo
+   - {role: nodejs, domain: promocion.bid, email_address: fabiel.leon.oliva@gmail.com, country_name: CU, state_name: La Habana , locality_name: Playa, org_name: Fabiel Inc. }
+   - {role: git, repo: promocion.bid , master_dir: /srv/http }
+   - {role: bashcolor, user: killer}
+   - {role: bashcolor, user: git}
+   - sshd

@@ -1,0 +1,8 @@
+[hitleap]
+185.141.62.137 ansible_user=root ansible_ssh_pass=EhT6R20SUALr8F4 ansible_connection=ssh ansible_python_interpreter=/usr/bin/python3
+
+[server]
+# killer UtlEVbL2pIg2DsU7B4_JK4d3vqAtcTpU3V7tsnYZFMNQrDKy44U
+84.200.210.86  ansible_user=root ansible_ssh_pass=VCXsz7GO ansible_connection=ssh ansible_python_interpreter=/usr/bin/python3 
+
+#spirit root wuYy2Dt1i3mj0GABRY7JspMHI
